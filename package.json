@@ -1,0 +1,22 @@
+{
+  "name": "myfirstpackage_dongyl",
+  "version": "1.0.0",
+  "description": "My first package Yeah!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upper": "set MESSAGE_STYLE=uppercase&& node main.js"
+  },
+  "keywords": [
+    "Hello",
+    "World"
+  ],
+  "author": "Dong YinLiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "~2.10.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}

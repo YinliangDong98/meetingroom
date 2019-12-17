@@ -1,0 +1,51 @@
+/* 聊天室使用的样式表 */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap {
+    background-color: grey;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 30%;
+}
+
+#control {
+    position: fixed;
+    width: 30%;
+    left: 35%;
+    bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+
+#control img {
+    position: absolute;
+    margin: 10px 20px;
+}
+
+#control input {
+    float: right;
+    padding: 5px;
+    margin: 15px 20px;
+}
+
+ul {
+    margin-left: -40px;
+}
+
+li {
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 6px;
+    list-style: none;
+    background-color: whitesmoke;
+}
+
+li img {
+    margin-left: 20px;
+    margin-right: 20px;
+}

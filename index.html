@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="./style/meeting.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="control">
+            <img src='image/monster2.png' />
+            <input type="button" id="send" value="发送" />
+            <input type="text" id="text" value="" placeholder="Talk some..." />
+        </div>
+        <ul id="list">
+            <!-- 消息列表 -->
+        </ul>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="script/meeting.js"></script>
+    <!-- type="module" 将js文件按模块导入，否则将按脚本文件导入 -->
+</body>
+
+</html>
